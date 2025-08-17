@@ -23,7 +23,7 @@ class TunePage extends StatelessWidget {
         elevation: 0,
         backgroundColor: Color(0xff253238),
       ),
-      body: Column(children: tunes.map((e) => TuneItem(tune: e)).toList()),
+      body: Column(children: tunes.map((e) => TuneItem(tunes: e)).toList()),
     );
   }
 }
